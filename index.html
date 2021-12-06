@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="font-poppins bg-gray-900 text-white">
+    <header id="header" class="w-full fixed z-20 overflow-hidden">
+      <nav
+        id="nav-bar"
+        class="
+          flex flex-col
+          justify-between
+          items-center
+          bg-gray-900
+          space-y-2
+          py-2
+          sm:flex sm:flex-row sm:justify-center sm:space-x-8
+        "
+      >
+        <a class="self-center" href="#home">
+          <svg
+            class="w-8 animate-pulse nav-link"
+            x="0px"
+            y="0px"
+            viewBox="0 0 90.953 90.953"
+            style="enable-background: new 0 0 90.953 90.953"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                style="fill: #34ff99"
+                d="M20.389,0.004l-10.157,9.48v81.469h60.332v-2.441l7.934-7.047h2.222V0L20.389,0.004L20.389,0.004z
+		            M70.564,86.605v-5.132v-1.432V9.488H21.82h-1.432h-5.315l0.365-0.358l0.365-0.358l3.869-3.794l0.358-0.354l0.358-0.351
+		            l1.031-1.009l0.401,0.011V2.87l0.036-0.036h56.181v77.131l-0.082,0.075l-1.61,1.432L70.564,86.605z"
+              />
+            </g>
+          </svg>
+        </a>
+        <div
+          class="
+            hidden
+            flex flex-col
+            space-y-1
+            justify-evenly
+            items-center
+            sm:flex sm:flex-row sm:justify-evenly sm:items-center
+            text-lg
+            font-bold
+            space-x-4
+            text-green-400
+          "
+        >
+          <a
+            class="
+              nav-link
+              rounded-lg
+              py-1.5
+              px-4
+              ml-2
+              mt-1
+              hover:bg-black hover:text-white hover:tranition-transform
+              duration-300
+              ease-in-out
+            "
+            href="#home-section"
+            >Home</a
+          >
+          <a
+            class="
+              nav-link
+              rounded-lg
+              py-1.5
+              px-4
+              hover:bg-black hover:text-white hover:tranition-transform
+              duration-300
+              ease
+            "
+            href="#intro-to-ghazali"
+            >Intro to Ghazali</a
+          >
+          <a
+            class="
+              nav-link
+              rounded-lg
+              py-1.5
+              px-4
+              hover:bg-black hover:text-white hover:tranition-transform
+              duration-300
+              ease
+            "
+            href="#books"
+            >Books</a
+          >
+          <a class="" href="#request-form">
+            <button
+              class="
+                nav-link
+                mx-1.5
+                my-2
+                py-1
+                px-2
+                font-bold
+                rounded-lg
+                border-solid border-2 border-white
+                hover:bg-white hover:text-green-500 hover:tranition-transform
+                duration-300
+                ease
+              "
+            >
+              Request
+            </button>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="overflow-hidden" id="home-section">
+      <div
+        class="
+          flex flex-col flex-nowrap
+          justify-between
+          items-center
+          font-bold
+          text-6xl
+          md:py-10
+          pt-20
+          md:flex
+          md:flex-row
+          md:flex-wrap
+          md:justify-evenly
+          md:items-center
+          md:font-bold
+          sm:text-8xl
+          lg:text-9xl
+          md:mt-16 md:w-1\/6
+        "
+      >
+        <img
+          class="mmd:hidden rounded-full mx-auto md:mx-auto z-0"
+          src="./img/imam_ghazali-bg-removed.png"
+          alt="Hujjat-ul-Islam"
+        />
+        <img
+          class="rounded-full z-0 md:hidden"
+          src="./img/imam_ghazali-bg-removed-small.png"
+          alt="Hujjat-ul-Islam"
+        />
+        <h1
+          class="
+            md:transform
+            lg:-translate-x-60
+            md:-translate-x-40
+            z-10
+            mb-4
+            md:mx-0
+            mx-auto
+            hover:text-green-400 hover:shadow-lg
+            lg:hover:tranition-transform
+          "
+        >
+          Build <br />
+          Better <br />
+          Lives
+        </h1>
+      </div>
+    </main>
+
+    <div id="intro-to-ghazali" class="bg-green-400 text-black">
+      <h2 class="md:text-4xl text-2xl text-center font-bold py-4">
+        Imam Ghazali Introduction
+      </h2>
+      <div
+        class="accordions_container flex justify-center itrems-center flex-wrap"
+      >
+        <div class="accordion flex flex-col justify-center items-center">
+          <h2
+            class="
+              flex
+              justify-evenly
+              accordion_heading
+              md:text-2xl
+              text-lg
+              font-bold
+              inline-flex
+              items-center
+              justify-between
+              gap-5
+              py-2
+              px-10
+              m-5
+              rounded-lg
+              cursor-pointer
+              bg-green-700
+              hover:bg-green-900 hover:text-white
+            "
+          >
+            Early years
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="
+                accordion_svg
+                h-5
+                w-5
+                transform
+                transition-transform
+                duration-500
+                ease-in-out
+              "
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </h2>
+
+          <p
+            class="
+              accordion_text
+              mx-10
+              hidden
+              text-gray-100
+              bg-green-900
+              rounded-lg
+              p-4
+              mb-10
+              transform
+              transition-transform
+              duration-500
+              ease-in-out
+            "
+          >
+            Imam Al-Ghazālī was born in 1058 ce in the small village of Tus,
+            near the town of Masshad in Persia (modern-day Iran). His name was
+            Abu Hamid Muhammad Ibn Muhammad Al-Ghazali أَبُو حَامِدٍ مُحَمَّدُ
+            بْنُ مُحَمَّدٍ ٱلطُّوسِيُّ ٱلْغَزَالِيُّ He may have been named
+            after his father's business, as ghazzali means "wool merchant." His
+            father was a Sufi. He had several sisters and a brother, Ahmad, who
+            became a Sufi poet. Al-Ghazālī's father died when he was very young,
+            and he and his brother were left in the care of a Sufi friend, Ahmad
+            al-Radkhani, who had promised to educate the boys. Economic
+            conditions were not good, but by the age of fifteen, arrangements
+            had been made for al-Ghazālī to continue his studies with a leading
+            scholar, Abu Nasr al-Ismaʾili, in the region of Jurgan, on the
+            Caspian Sea. <br />
+
+            Al-Ghazālī would later note in his autobiography, al-Munkidh min
+            al-Dalal (Deliverance from Error), that he was more ambitious than
+            religious as a young man. He pursued a scholarly religious path at
+            first because that was what was available to a young man with little
+            money or family standing. So, while studying with various teachers,
+            he took notes, but did not bother to consider or memorize the
+            lessons. One story tells how he was returning to his native Tus from
+            Jurgan when his group was attacked by bandits. When al-Ghazālī
+            begged that they not steal his school notebooks, the leader of the
+            robbers laughed at him. The robber said that obviously al-Ghazālī
+            was not much of a scholar if all his learning was kept in notebooks
+            and not in his mind. From this point on, al-Ghazālī memorized his
+            lessons instead of simply copying them down. <br />
+
+            When al-Ghazālī was nineteen he earned a place at a religious
+            college, or madrasa, in Nishapur, about 50 miles west of Tus. In
+            Nishapur he studied with one of the major religious scholars of the
+            generation, Abu al-Malik al-Juwayni (died 1085), also known as Imam
+            al-Haramayn. Al-Juwayni was the imam, or religious leader, of the
+            two most sacred cities in Islam, Mecca and Medina. Al-Ghazālī
+            studied both Islamic law and religion and was introduced to the work
+            of two earlier Islamic thinkers, Abu al-Nasr al-Farabi (870–950) and
+            Ibn Sina (980–1037). These men attempted to combine the use of
+            reason and rational thought developed by ancient Greek philosophers
+            with the Islamic belief in one supreme being, Allah. <br />
+
+            Al-Ghazālī was a bright student and became a favorite of al-Juwayni.
+            After finishing his studies, he remained for a time at the school
+            and helped with teaching. The young Muslim scholar soon came to the
+            attention of the powerful vizier (state official), Nizam al-Mulk
+            (1018–1092). The minister had built the college in Nishapur, as well
+            as several others in Persia and what is modern-day Iraq. After the
+            death of al-Juwayni, Nizam al-Mulk invited al-Ghazālī to come to
+            Baghdad, in modern-day Iraq, the administrative center of the
+            Islamic empire.
+          </p>
+        </div>
+        <div class="accordion flex flex-col justify-center items-center">
+          <h2
+            class="
+              flex
+              justify-evenly
+              accordion_heading
+              md:text-2xl
+              text-lg
+              font-bold
+              inline-flex
+              items-center
+              gap-5
+              py-2
+              px-12
+              m-5
+              rounded-lg
+              cursor-pointer
+              bg-green-700
+              hover:bg-green-900 hover:text-white
+            "
+          >
+            Later Life
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="
+                accordion_svg
+                h-5
+                w-5
+                transform
+                transition-transform
+                duration-500
+                ease-in-out
+              "
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </h2>
+
+          <p
+            class="
+              accordion_text
+              mx-10
+              hidden
+              text-gray-100
+              bg-green-900
+              rounded-lg
+              p-4
+              mb-10
+              transform
+              transition-transform
+              duration-500
+              ease-in-out
+            "
+          >
+            In Baghdad al-Ghazālī served Nizam al-Mulk as a legal advisor,
+            taught, wrote, and enjoyed the company of other scholars. In 1091,
+            at only thirty-three years old, he was named the chief professor at
+            Baghdad's Nizamiyya college. This was one of the most prominent
+            positions in the Muslim world. He lectured to large crowds of
+            students on law and logic. He was noted for giving clear and easily
+            understood presentations on complicated religious matters. He also
+            wrote one of his best known works, The Incoherence of the
+            Philosophers, in which he attempted to reveal the mistakes in the
+            theories of al-Farabi and Ibn Sina. He believed these earlier
+            thinkers had relied too much on rational thought, which he felt was
+            not adequate for understanding concepts such as Allah and infinity,
+            or something without boundaries. <br />
+
+            Al-Ghazālī's philosophy was adopted by a group known as the Kalam
+            thinkers, who attempted to prove that the universe had a beginning
+            and therefore was created by Allah. The basic Kalam argument takes
+            the following form: The universe had a beginning. Everything that
+            has a beginning has a cause. Therefore, the universe has a cause,
+            which is Allah. In their rejection of Aristotle 's (384–322 bce; see
+            entry) theory that the world of matter and motion is eternal, the
+            Kalam thinkers and al-Ghazālī had much in common. <br />
+
+            During his time in Baghdad, Al-Ghazālī also wrote Fada¿ih
+            al-Batiniyya (The Obscenities of the Esoterics), a critical account
+            of, among other things, the Assassins, a radical sect of Muslims
+            organized in the late eleventh century. The Assassins often killed
+            their enemies by using knives or poison. The name came from their
+            practice of preparing themselves for their work by using hashishin,
+            or the drug hashish. The word "assassination" later became used to
+            describe a planned murder. The Assassins killed a number of
+            prominent Muslims during al-Ghazālī's years in Baghdad, including
+            his sponsor, Nizam al-Mulk. <br />
+
+            Al-Ghazālī's rise in popularity came to a sudden halt. He suffered a
+            crisis of belief, and maybe even a nervous collapse. In 1095 he
+            developed a stutter that prevented him from lecturing and that
+            ultimately made him mute, or unable to talk. Though he later
+            recovered his voice and lost the stutter, al-Ghazālī gave up his
+            teaching position and left Baghdad. It is possible he left the city
+            in part because he feared being killed, due to his published
+            criticism of the Assassins. In his autobiography, al-Ghazālī claims
+            he could no longer stand the dishonesty he found in many of his
+            fellow scholars. He believed they were more interested in money and
+            fame than in real learning. He also decided that true religion could
+            only come through a direct experience with Allah, not through
+            scholarship. As he wrote in his autobiography: "I apprehended
+            clearly that the mystics are men who had real experiences, not men
+            of words, and that I had already progressed as far as possible by
+            way of intellectual apprehension. What remained for me was not to be
+            attained by oral instruction and study, but only by immediate
+            experience and by walking in the mystic way."
+          </p>
+        </div>
+        <div class="accordion flex flex-col justify-center items-center">
+          <h2
+            class="
+              flex
+              justify-evenly
+              accordion_heading
+              md:text-2xl
+              text-lg
+              font-bold
+              inline-flex
+              items-center
+              justify-between
+              gap-5
+              py-2
+              px-7
+              m-5
+              rounded-lg
+              cursor-pointer
+              bg-green-700
+              hover:bg-green-900 hover:text-white
+            "
+          >
+            Contributions
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="
+                accordion_svg
+                h-5
+                w-5
+                transform
+                transition-transform
+                duration-500
+                ease-in-out
+              "
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </h2>
+
+          <p
+            class="
+              accordion_text
+              mx-10
+              hidden
+              text-gray-100
+              bg-green-900
+              rounded-lg
+              p-4
+              mb-10
+              transform
+              transition-transform
+              duration-500
+              ease-in-out
+            "
+          >
+            Al-Ghazali composed three works on Aristotelian logic, Mi‘yar
+            al-‘ilm (The Standard Measure of Knowledge), Mihakk al-nazar
+            f’l-mantiq (The Touchstone of Proof in Logic) and al-Qistas
+            al-mustaqim (The Just Balance). The first two were written
+            immediately after the Tahafut `in order to help understanding of the
+            latter’, and the third was composed after his retirement. He also
+            gave a detailed account of logic in the long introduction of his
+            writing on legal theory, al-Mustasfa min ‘ilm al-usul (The
+            Essentials of Islamic Legal Theory). Al-Ghazali’s great interest in
+            logic is unusual, particularly when most Muslim theologians were
+            antagonistic to it, and can be attributed not only to the usefulness
+            of logic in refuting heretical views (al-Qistas is also a work of
+            refutation of the Isma‘ilis), but also to his being fascinated by
+            the exactness of logic and its effectiveness for reconstructing the
+            religious sciences on a solid basis. <br />
+
+            There is a fundamental disparity between al-Ghazali’s theological
+            view and the Neoplatonic Aristotelian philosophy of emanationism.
+            Al-Ghazali epitomizes this view in twenty points, three of which are
+            especially prominent: <br />
+            (1) the philosophers’ belief in the eternity of the world, <br />
+            (2) their doctrine that God does not know particulars, <br />
+            (3) their denial of the resurrection of bodies. <br />
+            These theses are ultimately reducible to differing conceptions of
+            God and ontology. Interestingly, al-Ghazali’s criticism of
+            philosophy is philosophical rather than theological, and is
+            undertaken from the viewpoint of reason. <br />
+
+            First, as for the eternity of the world, the philosophers claim that
+            the emanation of the First Intellect and other beings is the result
+            of the necessary causality of God’s essence, and therefore the world
+            as a whole is concomitant and coeternal with his existence. Suppose,
+            say the philosophers, that God created the world at a certain moment
+            in time; that would presuppose a change in God, which is impossible.
+            Further, since each moment of time is perfectly similar, it is
+            impossible, even for God, to choose a particular moment in time for
+            creation. Al-Ghazali retorts that God’s creation of the world was
+            decided in the eternal past, and therefore it does not mean any
+            change in God; indeed, time itself is God’s creation (this is also
+            an argument based on the Aristotelian concept of time as a function
+            of change). Even though the current of time is similar in every
+            part, it is the nature of God’s will to choose a particular out of
+            similar ones. <br />
+
+            Second, the philosophers deny God’s knowledge of particulars or
+            confine it to his self-knowledge, since they suppose that to connect
+            God’s knowledge with particulars means a change and plurality in
+            God’s essence. Al-Ghazali denies this. If God has complete knowledge
+            of a person from birth to death, there will be no change in God’s
+            eternal knowledge, even though the person’s life changes from moment
+            to moment. <br />
+
+            Third, the philosophers deny bodily resurrection, asserting that
+            ‘the resurrection’ means in reality the separation of the soul from
+            the body after death. Al-Ghazali criticizes this argument, and also
+            attacks the theory of causality presupposed in the philosophers’
+            arguments. The so-called necessity of causality is, says al-Ghazali,
+            simply based on the mere fact that an event A has so far occurred
+            concomitantly with an event B. There is no guarantee of the
+            continuation of that relationship in the future, since the
+            connection of A and B lacks logical necessity. In fact, according to
+            Ash‘arite atomistic occasionalism, the direct cause of both A and B
+            is God; God simply creates A when he creates B. Thus theoretically
+            he can change his custom (sunna, ‘ada) at any moment, and resurrect
+            the dead: in fact, this is ‘a second creation’. <br />
+
+            Al-Ghazali thus claims that the philosophers’ arguments cannot
+            survive philosophical criticism, and Aristotelian logic served as a
+            powerful weapon for this purpose. However, if the conclusions of
+            philosophy cannot be proved by reason, is not the same true of
+            theological principles or the teachings of revelation? How then can
+            the truth of the latter be demonstrated? Herein lies the force of
+            al-Ghazali’s critique of reason. <br />
+          </p>
+        </div>
+        <div class="accordion flex flex-col justify-center items-center">
+          <h2
+            class="
+              flex
+              justify-evenly
+              accordion_heading
+              md:text-2xl
+              text-lg
+              font-bold
+              inline-flex
+              items-center
+              justify-between
+              gap-5
+              py-2
+              px-8
+              m-5
+              rounded-lg
+              cursor-pointer
+              bg-green-700
+              hover:bg-green-900 hover:text-white
+            "
+          >
+            Video Intro
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="
+                accordion_svg
+                h-5
+                w-5
+                transform
+                transition-transform
+                duration-500
+                ease-in-out
+              "
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </h2>
+
+          <p
+            class="
+              accordion_text
+              mx-10
+              hidden
+              text-gray-100
+              bg-green-900
+              rounded-lg
+              p-4
+              mb-10
+              transform
+              transition-transform
+              duration-500
+              ease-in-out
+            "
+          >
+            <iframe
+              id="video"
+              class="mmd:h-1\.5 mmd:w-max"
+              src="https://www.youtube.com/embed/np_fin4y1ok"
+              width="600"
+              height="300"
+              frameborder="0"
+            ></iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="books" class="lg:grid lg:grid-cols-2">
+      <figure class="md:flex rounded-xl bg-green-700 m-10">
+        <img
+          class="
+            md:w-48 md:h-auto md:rounded-none
+            mx-auto
+            md:p-0
+            rounded-full
+            h-32
+            w-32
+            pt-1
+          "
+          src="./img/The_Book_Of_Knowledge_Book_1_Of_The_Revival_Of_The_Religious.jpg"
+          alt=""
+          width="191"
+          height="256"
+        />
+        <div class="flex flex-col m-5">
+          <h3 class="font-bold text-lg">
+            The Book Of Knowledge: Book 1 Of The Revival Of The Religious
+            Sciences
+          </h3>
+          <blockquote class="h-52 text-md pt-4">
+            <p
+              style="
+                display: -webkit-box;
+                -webkit-line-clamp: 7;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+              "
+            >
+              The Book of Knowledge is the foundation of the forty books of the
+              Revival of the Religious Sciences, Imam al-Ghazali’s magnum opus.
+              In the Book of Knowledge, he defines knowledge, its relation to
+              faith, theology, and jurisprudence. The book deals with the virtue
+              of knowledge from both rational and traditional points of view. It
+              elucidates the types of knowledge and the nature of people’s
+              obligation to seek knowledge. Imam al-Ghazali defines
+              jurisprudence and theology as branches of Islamic knowledge, then
+              outlines those fields that people incorrectly consider to be
+              Islamic disciplines, and distinguishes the praiseworthy from the
+              blameworthy. He describes in detail the perils of disputation and
+              the reasons people engage in debate and dialectics. He also
+              considers the conduct incumbent on the teacher and student, and
+              warns of the perils that can befall those pursuing knowledge.
+              Finally, Imam al-Ghazali discusses the virtues and categories of
+              the intellect and the prophetic traditions related to it.
+            </p>
+          </blockquote>
+          <button
+            class="
+              justify-self-center
+              mb-5
+              md:mb-0
+              py-1
+              px-2
+              font-bold
+              bg-gray-700
+              rounded-lg
+              border-solid border-2 border-white
+              hover:bg-white hover:text-green-500 hover:tranition-transform
+              duration-300
+              ease
+            "
+          >
+            <a href="#">Buy</a>
+          </button>
+        </div>
+      </figure>
+
+      <figure class="md:flex rounded-xl bg-green-700 m-10">
+        <img
+          class="
+            md:w-48 md:h-auto md:rounded-none
+            mx-auto
+            md:p-0
+            rounded-full
+            h-32
+            w-32
+            pt-1
+          "
+          src="./img/The_Alchemy_of_Happiness.jpg"
+          alt=""
+          width="191"
+          height="256"
+        />
+        <div class="flex flex-col m-5">
+          <h3 class="font-bold text-lg">The Alchemy of Happiness</h3>
+          <blockquote class="h-52 text-md pt-4">
+            <p
+              style="
+                display: -webkit-box;
+                -webkit-line-clamp: 7;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+              "
+            >
+              The work emphasized the importance of observing the ritual
+              requirements of Islam, the actions that would lead to salvation,
+              and avoidance of sin. The factor that set the Alchemy apart from
+              other theological works at the time was its mystical emphasis on
+              self-discipline and asceticism. Sa'āda (happiness) is a central
+              concept in Islamic philosophy used to describe the highest aim of
+              human striving. Sa'āda is equated with "ultimate happiness",
+              namely that of the hereafter. It is achieved only after a human
+              being has liberated his/her soul completely from its corporal
+              existence, achieving "active intellect". The teachings were to
+              help man to live a life in accordance with the sacred law, and by
+              doing so gain a deeper understanding of its meaning on the day of
+              Judgement.
+            </p>
+          </blockquote>
+          <button
+            class="
+              justify-self-center
+              mb-5
+              md:mb-0
+              py-1
+              px-2
+              font-bold
+              bg-gray-700
+              rounded-lg
+              border-solid border-2 border-white
+              hover:bg-white hover:text-green-500 hover:tranition-transform
+              duration-300
+              ease
+            "
+          >
+            <a href="#">Buy</a>
+          </button>
+        </div>
+      </figure>
+
+      <figure class="md:flex rounded-xl bg-green-700 m-10">
+        <img
+          class="
+            md:w-48 md:h-auto md:rounded-none
+            mx-auto
+            md:p-0
+            rounded-full
+            h-32
+            w-32
+            pt-1
+          "
+          src="./img/The_Incoherence_of_the_Philosophers.webp"
+          alt=""
+          width="191"
+          height="256"
+        />
+        <div class="flex flex-col m-5">
+          <h3 class="font-bold text-lg">
+            Tahafut-Al-Falasifah - The Incoherence of the Philosophers
+          </h3>
+          <blockquote class="h-52 text-md pt-4">
+            <p
+              style="
+                display: -webkit-box;
+                -webkit-line-clamp: 7;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+              "
+            >
+              Al-Ghazali’s relationship with philosophy is subtle and
+              complicated. The philosophy represented by AL-FARABI and IBN SINA
+              (Avicenna) is, for al-Ghazali, not simply an object of criticism
+              but also an important component of his own learning. Imam Ghazali
+              studied philosophy intensively while in Baghdad, composing Maqasid
+              al falasifa (The Intentions of the Philosophers), and then
+              criticizing it in his Tahafut al falasifa (Incoherence of
+              Philosophers). This book was considered a turning point in Islamic
+              history, it is generally thought that from this point onwards
+              philosophy in the Islamic world went on the decline after
+              receiving such a crushing blow from religion in the form of
+              al-Ghazali's writings. This translation is well written and
+              presented in English that is fairly easy to understand
+            </p>
+          </blockquote>
+          <button
+            class="
+              justify-self-center
+              mb-5
+              md:mb-0
+              py-1
+              px-2
+              font-bold
+              bg-gray-700
+              rounded-lg
+              border-solid border-2 border-white
+              hover:bg-white hover:text-green-500 hover:tranition-transform
+              duration-300
+              ease
+            "
+          >
+            <a href="#">Buy</a>
+          </button>
+        </div>
+      </figure>
+
+      <figure class="md:flex rounded-xl bg-green-700 m-10">
+        <img
+          class="
+            md:w-48 md:h-auto md:rounded-none
+            mx-auto
+            md:p-0
+            rounded-full
+            h-32
+            w-32
+            pt-1
+          "
+          src="./img/Ihya-Ulum-al-Din-III.jpg"
+          alt=""
+          width="191"
+          height="256"
+        />
+        <div class="flex flex-col m-5">
+          <h3 class="font-bold text-lg">Ihya Ulum Al-Din</h3>
+          <blockquote class="h-52 text-md pt-4">
+            <p
+              style="
+                display: -webkit-box;
+                -webkit-line-clamp: 7;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+              "
+            >
+              The Revival of the Religious Sciences by Imam al-Ghazālī can be
+              described as a book that will never die. This is because it
+              contains a vital cognitive force that time cannot obliterate. In
+              it the Imam discusses Islamic rulings, beliefs and character, in
+              the style of an admonisher who understands the psyche and its
+              secrets as well as spiritual diseases. What distinguishes this
+              book from others is its strong spiritual influence on the reader
+              which makes him seek both soundness of heart and his Lord's
+              pleasure through acts of worship, rather than the mere performance
+              of acts of worship so that they are legally valid. The book is a
+              comprehensive encyclopaedia for all of a Muslim's religious
+              affairs, including beliefs, acts of worship, dealings and
+              character, as well as for individual and societal welfare.
+              Al-Ghazālī's style is that of one who practices what he knows, one
+              who is determined to rise from the dry, ordinary manner of
+              teaching to one which encourages action. Abū Hāmid al-Ghazālī is a
+              towering figure in Islam. His enormous influence can be
+              summarized, in the words of Annemarie Schimmel, as the one who
+              "teaches... only to help man to live a life in accordance with the
+              sacred law, not by clinging exclusively to its letter, but by an
+              understanding of its deeper meaning ... so that he is ready for
+              the meeting with his Lord at any moment." His greatest work Ihyā'
+              'Ūlūm al-Dīn (The Revival of the Religious Sciences), comprising
+              forty books divided into four quarters of ten books each, has
+              helped generations towards this end until today.
+            </p>
+          </blockquote>
+          <button
+            class="
+              justify-self-center
+              mb-5
+              md:mb-0
+              py-1
+              px-2
+              font-bold
+              bg-gray-700
+              rounded-lg
+              border-solid border-2 border-white
+              hover:bg-white hover:text-green-500 hover:tranition-transform
+              duration-300
+              ease
+            "
+          >
+            <a href="#">Buy</a>
+          </button>
+        </div>
+      </figure>
+      <button
+        class="
+          flex
+          col-span-2
+          justify-self-center
+          mx-auto
+          mb-5
+          py-1
+          px-2
+          text-xl
+          font-bold
+          bg-gray-700
+          rounded-lg
+          border-solid border-2 border-white
+          hover:bg-white hover:text-green-500 hover:tranition-transform
+          duration-300
+          ease
+        "
+      >
+        <a href="#">Load more</a>
+      </button>
+    </div>
+
+    <div
+      id="request-form"
+      class="mx-10 md:mx-32 my-16 shadow-2xl bg-green-400 rounded-lg"
+    >
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+        class="
+          form-input
+          justify-items-center
+          lg:grid lg:grid-cols-2
+          gap-2
+          text-black
+          p-5
+        "
+      >
+        <h3 class="text-center text-3xl col-span-2 text-black font-bold py-8">
+          How can we help you ?
+        </h3>
+        <div class="form_name mb-5 flex flex-col lg:justify-self-centern">
+          <label class="block ml-2 font-bold" for="Full_name">Full name</label>
+          <input
+            type="text"
+            name="Full_name"
+            id="Full_name"
+            placeholder="Enter your name here"
+            required
+            class="
+              form-input
+              text-white
+              placeholder-gray-400
+              focus:outline-none focus:shadow-outline
+              bg-gray-700
+              border-2 border-green-700
+              pl-2
+              sm:pr-28
+              py-1
+              rounded
+            "
+          />
+        </div>
+        <div class="form_email mb-5 flex flex-col lg:justify-self-center">
+          <label class="block ml-2 font-bold" for="Full_name">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email here"
+            required
+            class="
+              form-input
+              text-white
+              placeholder-gray-400
+              focus:outline-none focus:shadow-outline
+              bg-gray-700
+              border-2 border-green-700
+              pl-2
+              sm:pr-28
+              py-1
+              rounded
+            "
+          />
+        </div>
+        <div class="form_number mb-5 flex flex-col lg:justify-self-center">
+          <label class="block ml-2 font-bold" for="phone_number"
+            >Phone number <span>(Optional)</span>
+          </label>
+          <input
+            type="tel"
+            name="phone_number"
+            id="phone_number"
+            placeholder="Enter your phone number here"
+            class="
+              form-input
+              text-white
+              placeholder-gray-400
+              focus:outline-none focus:shadow-outline
+              bg-gray-700
+              border-2 border-green-700
+              pl-2
+              sm:pr-28
+              py-1
+              rounded
+            "
+          />
+        </div>
+        <div class="form_gender mb-5 flex flex-col lg:justify-self-center">
+          <label class="block ml-2 font-bold" for="gender">Gender</label>
+          <select
+            class="
+              form-multiselect
+              text-gray-400
+              placeholder-gray-400
+              focus:outline-none focus:shadow-outline
+              bg-gray-700
+              border-2 border-green-700
+              pl-2
+              sm:pr-20
+              py-1
+              rounded
+            "
+            name="gender"
+            id="gender"
+          >
+            <option selected class="text-gray-600" value="0">
+              Please select your gender
+            </option>
+            <option value="0">Male</option>
+            <option value="1">Female</option>
+            <option value="2">Not applicable</option>
+          </select>
+        </div>
+        <div
+          class="
+            form-textarea
+            mb-5
+            flex flex-col
+            col-span-2
+            md:justify-self-center
+          "
+        >
+          <label class="block ml-2 font-bold" for="phone_number"
+            >Help us improve by your suggestions?
+          </label>
+          <textarea
+            name="suggestions"
+            id="suggestions"
+            cols="75"
+            rows="10"
+            placeholder="Give us your opinions and suggestions here"
+            class="
+              form-textarea
+              text-gray-400
+              placeholder-gray-400
+              focus:outline-none focus:shadow-outline
+              bg-gray-700
+              border-2 border-green-700
+              pl-2
+              sm:pr-20
+              py-1
+              rounded-lg
+            "
+          ></textarea>
+        </div>
+        <div
+          class="
+            submit_form_input
+            mb-5
+            flex flex-col
+            lg:justify-self-center
+            col-span-2
+          "
+        >
+          <input
+            value="Submit"
+            type="submit"
+            id="submit"
+            class="
+              justify-center
+              items-center
+              mx-auto
+              mb-5
+              py-1
+              px-2
+              text-xl text-white
+              font-bold
+              bg-gray-700
+              rounded-lg
+              border-solid border-2 border-white
+              hover:bg-white hover:text-green-500 hover:tranition-transform
+              duration-300
+              ease
+            "
+          />
+        </div>
+      </form>
+    </div>
+
+    <div
+      class="
+        footer
+        flex flex-col
+        mx-auto
+        justify-center
+        gap-5
+        text-gray-300
+        font-bold
+      "
+    >
+      <div
+        class="
+          anchor_tags
+          flex flex-row
+          justify-center
+          gap-5
+          text-sm
+          md:text-base
+        "
+      >
+        <a
+          href="#Home"
+          class="
+            hover:text-green-700 hover:tranition-transform
+            duration-300
+            ease-in-out
+          "
+          >Home</a
+        >
+        <a
+          href=""
+          class="
+            hover:text-green-700 hover:tranition-transform
+            duration-300
+            ease-in-out
+          "
+          >About</a
+        >
+        <a
+          target="blank"
+          href="https://en.wikipedia.org/wiki/Al-Ghazali"
+          class="
+            hover:text-green-700 hover:tranition-transform
+            duration-300
+            ease-in-out
+          "
+          >Al-Ghazali</a
+        >
+        <a
+          href="#Books"
+          class="
+            hover:text-green-700 hover:tranition-transform
+            duration-300
+            ease-in-out
+          "
+          >Books</a
+        >
+        <a
+          href=""
+          class="
+            hover:text-green-700 hover:tranition-transform
+            duration-300
+            ease-in-out
+          "
+          >Suggestions</a
+        >
+      </div>
+      <div class="icons h-5 flex flex-row justify-center md:mx-60">
+        <a href="" class="linkedin inline-block">
+          <svg
+            height="100%"
+            style="
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              stroke-linejoin: round;
+              stroke-miterlimit: 2;
+            "
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="100%"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:serif="http://www.serif.com/"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g id="g5891">
+              <path
+                d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z"
+                id="background"
+                style="fill: #2867b2"
+              />
+              <g id="shapes">
+                <rect
+                  height="257.962"
+                  id="rect11"
+                  style="fill: #fff"
+                  width="85.76"
+                  x="61.053"
+                  y="178.667"
+                />
+                <path
+                  d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z"
+                  id="path13-0"
+                  style="fill: #fff; fill-rule: nonzero"
+                />
+                <path
+                  d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z"
+                  id="path15"
+                  style="fill: #fff; fill-rule: nonzero"
+                />
+              </g>
+            </g></svg
+        ></a>
+        <a href="" class="github inline-block"
+          ><svg
+            height="100%"
+            viewBox="0 0 72 72"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <path
+                d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z"
+                fill="#3E75C3"
+              />
+              <path
+                d="M35.9985,12 C22.746,12 12,22.7870921 12,36.096644 C12,46.7406712 18.876,55.7718301 28.4145,58.9584121 C29.6145,59.1797862 30.0525,58.4358488 30.0525,57.7973276 C30.0525,57.2250681 30.0315,55.7100863 30.0195,53.6996482 C23.343,55.1558981 21.9345,50.4693938 21.9345,50.4693938 C20.844,47.6864054 19.2705,46.9454799 19.2705,46.9454799 C17.091,45.4500754 19.4355,45.4801943 19.4355,45.4801943 C21.843,45.6503662 23.1105,47.9634994 23.1105,47.9634994 C25.2525,51.6455377 28.728,50.5823398 30.096,49.9649018 C30.3135,48.4077535 30.9345,47.3460615 31.62,46.7436831 C26.2905,46.1352808 20.688,44.0691228 20.688,34.8361671 C20.688,32.2052792 21.6225,30.0547881 23.1585,28.3696344 C22.911,27.7597262 22.0875,25.3110578 23.3925,21.9934585 C23.3925,21.9934585 25.4085,21.3459017 29.9925,24.4632101 C31.908,23.9285993 33.96,23.6620468 36.0015,23.6515052 C38.04,23.6620468 40.0935,23.9285993 42.0105,24.4632101 C46.5915,21.3459017 48.603,21.9934585 48.603,21.9934585 C49.9125,25.3110578 49.089,27.7597262 48.8415,28.3696344 C50.3805,30.0547881 51.309,32.2052792 51.309,34.8361671 C51.309,44.0917119 45.6975,46.1292571 40.3515,46.7256117 C41.2125,47.4695491 41.9805,48.9393525 41.9805,51.1877301 C41.9805,54.4089489 41.9505,57.0067059 41.9505,57.7973276 C41.9505,58.4418726 42.3825,59.1918338 43.6005,58.9554002 C53.13,55.7627944 60,46.7376593 60,36.096644 C60,22.7870921 49.254,12 35.9985,12"
+                fill="#FFF"
+              />
+            </g></svg
+        ></a>
+        <a href="" class="twitter inline-block"
+          ><svg
+            height="100%"
+            style="
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              stroke-linejoin: round;
+              stroke-miterlimit: 2;
+            "
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="100%"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:serif="http://www.serif.com/"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect height="400" style="fill: none" width="400" x="56" y="56" />
+            <path
+              d="M161.014,464.013c193.208,0 298.885,-160.071 298.885,-298.885c0,-4.546 0,-9.072 -0.307,-13.578c20.558,-14.871 38.305,-33.282 52.408,-54.374c-19.171,8.495 -39.51,14.065 -60.334,16.527c21.924,-13.124 38.343,-33.782 46.182,-58.102c-20.619,12.235 -43.18,20.859 -66.703,25.498c-19.862,-21.121 -47.602,-33.112 -76.593,-33.112c-57.682,0 -105.145,47.464 -105.145,105.144c0,8.002 0.914,15.979 2.722,23.773c-84.418,-4.231 -163.18,-44.161 -216.494,-109.752c-27.724,47.726 -13.379,109.576 32.522,140.226c-16.715,-0.495 -33.071,-5.005 -47.677,-13.148l0,1.331c0.014,49.814 35.447,93.111 84.275,102.974c-15.464,4.217 -31.693,4.833 -47.431,1.802c13.727,42.685 53.311,72.108 98.14,72.95c-37.19,29.227 -83.157,45.103 -130.458,45.056c-8.358,-0.016 -16.708,-0.522 -25.006,-1.516c48.034,30.825 103.94,47.18 161.014,47.104"
+              style="fill: #1da1f2; fill-rule: nonzero"
+            /></svg
+        ></a>
+        <a href="" class="instagram inline-block"
+          ><svg
+            height="100%"
+            style="
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              stroke-linejoin: round;
+              stroke-miterlimit: 2;
+            "
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="100%"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:serif="http://www.serif.com/"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g>
+              <path
+                d="M256,0c-69.526,0 -78.244,0.295 -105.549,1.541c-27.248,1.243 -45.858,5.57 -62.142,11.899c-16.834,6.542 -31.111,15.296 -45.342,29.528c-14.232,14.231 -22.986,28.508 -29.528,45.342c-6.329,16.283 -10.656,34.893 -11.899,62.141c-1.246,27.305 -1.54,36.023 -1.54,105.549c0,69.524 0.294,78.242 1.54,105.547c1.243,27.248 5.57,45.858 11.899,62.141c6.542,16.834 15.296,31.111 29.528,45.344c14.231,14.231 28.508,22.985 45.342,29.527c16.284,6.328 34.894,10.656 62.142,11.899c27.305,1.245 36.023,1.54 105.549,1.54c69.524,0 78.242,-0.295 105.547,-1.54c27.248,-1.243 45.858,-5.571 62.141,-11.899c16.834,-6.542 31.111,-15.296 45.344,-29.527c14.231,-14.233 22.985,-28.51 29.527,-45.344c6.328,-16.283 10.656,-34.893 11.899,-62.141c1.245,-27.305 1.54,-36.023 1.54,-105.547c0,-69.526 -0.295,-78.244 -1.54,-105.549c-1.243,-27.248 -5.571,-45.858 -11.899,-62.141c-6.542,-16.834 -15.296,-31.111 -29.527,-45.342c-14.233,-14.232 -28.51,-22.986 -45.344,-29.528c-16.283,-6.329 -34.893,-10.656 -62.141,-11.899c-27.305,-1.246 -36.023,-1.541 -105.547,-1.541Zm0,46.127c68.354,0 76.451,0.26 103.445,1.492c24.959,1.139 38.514,5.309 47.535,8.814c11.949,4.644 20.477,10.192 29.435,19.15c8.959,8.958 14.506,17.487 19.15,29.435c3.506,9.021 7.676,22.576 8.815,47.535c1.231,26.995 1.492,35.092 1.492,103.447c0,68.354 -0.261,76.451 -1.492,103.445c-1.139,24.959 -5.309,38.514 -8.815,47.535c-4.644,11.949 -10.191,20.477 -19.15,29.435c-8.958,8.959 -17.486,14.506 -29.435,19.15c-9.021,3.506 -22.576,7.676 -47.535,8.814c-26.99,1.232 -35.086,1.493 -103.445,1.493c-68.361,0 -76.455,-0.261 -103.447,-1.493c-24.959,-1.138 -38.514,-5.308 -47.535,-8.814c-11.949,-4.644 -20.477,-10.191 -29.436,-19.15c-8.958,-8.958 -14.506,-17.486 -19.149,-29.435c-3.506,-9.021 -7.676,-22.576 -8.815,-47.535c-1.232,-26.994 -1.492,-35.091 -1.492,-103.445c0,-68.355 0.26,-76.452 1.492,-103.447c1.139,-24.959 5.309,-38.514 8.815,-47.535c4.643,-11.948 10.191,-20.477 19.149,-29.435c8.959,-8.958 17.487,-14.506 29.436,-19.15c9.021,-3.505 22.576,-7.675 47.535,-8.814c26.995,-1.232 35.092,-1.492 103.447,-1.492Z"
+                style="fill: url(#_Linear1); fill-rule: nonzero"
+              />
+              <path
+                d="M256,341.332c-47.129,0 -85.334,-38.205 -85.334,-85.332c0,-47.129 38.205,-85.334 85.334,-85.334c47.127,0 85.332,38.205 85.332,85.334c0,47.127 -38.205,85.332 -85.332,85.332Zm0,-216.792c-72.604,0 -131.46,58.856 -131.46,131.46c0,72.602 58.856,131.458 131.46,131.458c72.602,0 131.458,-58.856 131.458,-131.458c0,-72.604 -58.856,-131.46 -131.458,-131.46Z"
+                style="fill: url(#_Linear2); fill-rule: nonzero"
+              />
+              <path
+                d="M423.372,119.346c0,16.967 -13.754,30.72 -30.72,30.72c-16.966,0 -30.72,-13.753 -30.72,-30.72c0,-16.966 13.754,-30.719 30.72,-30.719c16.966,0 30.72,13.753 30.72,30.719Z"
+                style="fill: url(#_Linear3); fill-rule: nonzero"
+              />
+            </g>
+            <defs>
+              <linearGradient
+                gradientTransform="matrix(-149.618,494.3,-494.3,-149.618,300.81,-27.1283)"
+                gradientUnits="userSpaceOnUse"
+                id="_Linear1"
+                x1="0"
+                x2="1"
+                y1="0"
+                y2="0"
+              >
+                <stop offset="0" style="stop-color: #515bd4; stop-opacity: 1" />
+                <stop
+                  offset="0.26"
+                  style="stop-color: #9510b8; stop-opacity: 1"
+                />
+                <stop
+                  offset="0.66"
+                  style="stop-color: #e51804; stop-opacity: 1"
+                />
+                <stop offset="1" style="stop-color: #feda77; stop-opacity: 1" />
+              </linearGradient>
+              <linearGradient
+                gradientTransform="matrix(-149.618,494.3,-494.3,-149.618,300.81,-27.1283)"
+                gradientUnits="userSpaceOnUse"
+                id="_Linear2"
+                x1="0"
+                x2="1"
+                y1="0"
+                y2="0"
+              >
+                <stop offset="0" style="stop-color: #515bd4; stop-opacity: 1" />
+                <stop
+                  offset="0.26"
+                  style="stop-color: #9510b8; stop-opacity: 1"
+                />
+                <stop
+                  offset="0.66"
+                  style="stop-color: #e51804; stop-opacity: 1"
+                />
+                <stop offset="1" style="stop-color: #ffbf00; stop-opacity: 1" />
+              </linearGradient>
+              <linearGradient
+                gradientTransform="matrix(-149.618,494.3,-494.3,-149.618,300.81,-27.1283)"
+                gradientUnits="userSpaceOnUse"
+                id="_Linear3"
+                x1="0"
+                x2="1"
+                y1="0"
+                y2="0"
+              >
+                <stop offset="0" style="stop-color: #515bd4; stop-opacity: 1" />
+                <stop
+                  offset="0.26"
+                  style="stop-color: #9510b8; stop-opacity: 1"
+                />
+                <stop
+                  offset="0.66"
+                  style="stop-color: #e51804; stop-opacity: 1"
+                />
+                <stop offset="1" style="stop-color: #ffbf00; stop-opacity: 1" />
+              </linearGradient>
+            </defs></svg
+        ></a>
+        <a href="" class="facebook inline-block"
+          ><svg
+            height="100%"
+            style="
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              stroke-linejoin: round;
+              stroke-miterlimit: 2;
+            "
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="100%"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:serif="http://www.serif.com/"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"
+              style="fill: #1777f2"
+            /></svg
+        ></a>
+      </div>
+      <div
+        class="
+          rights
+          mb-10
+          flex flex-row
+          justify-center
+          gap-5
+          text-sm
+          md:text-base
+        "
+      >
+        <span>All rights reserved © 2021</span>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
